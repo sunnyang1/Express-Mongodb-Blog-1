@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="/home/css/base.css">
+     {{block 'link'}}{{/block}}
+</head>
+<!--模版的相对路径是相对于地址栏的,如果router的命名和public不一样就会出错，所以不安全，所以改成绝对路径稳妥一点-->
+<body>
+{{block 'main'}} {{/block}}
+{{block 'script'}} {{/block}}
+</body>
+</html>
