@@ -1,4 +1,4 @@
-# Node+Express+Mongodb+Art-template后台管理、前台展示多用户博客系统
+# Node+Express+Mongodb+art-template后台管理、前台展示多用户博客系统
 ## 描述
 基于node.js的博客，没有采用前后端分离，采用后端渲染的方式
 
