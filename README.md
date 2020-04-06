@@ -38,11 +38,13 @@
 
 
 ## 使用方法
+首先设置一下数据库，三个collection我已经放在blog-datebase文件夹中了
+数据库密码我是放在系统环境变量中的
+当然你可以选择无密码连接
 
 ```
 # install dependencies
 (c)npm install 或者 yarn
-
 # serve at localhost: 80 (可自行更改)
 nodemon
 
