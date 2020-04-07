@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>首页</title>
+	<title>Blog</title>
 	<link rel="stylesheet" href="/home/css/base.css">
      {{block 'link'}}{{/block}}
 </head>
