@@ -24,8 +24,8 @@ const bcrypt = require('bcryptjs');
             } 
            if(user.role=="normal")
             {
-              if(req.session.articleId){
-                res.redirect('/home/article?id='+req.session.articleId)
+              if(req.app.locals.articleId){
+                res.redirect('/home/article?id='+req.app.locals.articleId)
               }
               else {
                 res.redirect('/home/');

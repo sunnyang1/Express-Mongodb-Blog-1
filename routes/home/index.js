@@ -3,6 +3,8 @@ const { Article } = require('../../model/article');
 const pagination = require('mongoose-sex-page');
 module.exports =  async function(req,res){
     const page = req.query.page;
+    //去首页的时候就清空articleId
+    req.app.locals.articleId='';
     // req.app.locals.currentLink = 'article';
 	// // page 指定当前页
 	// // size 指定每页显示的数据条数

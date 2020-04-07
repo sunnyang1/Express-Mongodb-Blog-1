@@ -2,11 +2,12 @@ function loginGuard(req,res,next){
    if(req.url!=='/login' && !req.session.username && req.url!=='/savelogin'){
       res.redirect('/admin/login');
     } else {
-      if(req.session.role=="normal"){
-
-        return res.redirect('/home/')
-        //阻止向下执行
+      //是登录状态
+      if(req.session.role=='normal'){
+        //定向到首页
+        return res.redirect('/home')
       }
+
       next()
     }   
     

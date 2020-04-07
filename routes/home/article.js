@@ -2,7 +2,7 @@ const { Article } = require('../../model/article');
 const { Comment } = require('../../model/comment');
 module.exports =  async function(req,res){
     var id=req.query.id;
-    req.session.articleId=id;
+    // req.session.articleId=id;
     req.app.locals.articleId=id;
 	// 查询文章详情数据
     let articleDetail = await Article.findOne({_id:id}).populate('author');
