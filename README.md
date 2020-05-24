@@ -69,7 +69,7 @@ nodemon
 ![文章列表页2](./static/git2.jpg)
 
 ### 登录：
-![登录](./static/登录界面.pgn)
+![登录](./static/登录界面.png)
 
 ### 注册：
 ![文章](./static/前台注册.png)
