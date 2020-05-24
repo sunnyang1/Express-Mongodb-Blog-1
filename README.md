@@ -63,11 +63,11 @@ nodemon
 效果展示图片加载可能比较慢，请耐心等待，感谢。
 
 ### 首页：
-![首页](./static/blog首页.png)
-
+![文章列表页1](./static/git1.jpg)
+![文章列表页2](./static/git2.jpg)
 
 ### 登录：
-![文章](./static/登录界面.png)
+![登录](./static/登录.pgn)
 
 ### 注册：
 ![文章](./static/前台注册.png)
